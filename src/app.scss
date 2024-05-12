@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    background-color: #3b4252;
+    color: #eceff4;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 0.1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    min-height: 100vh;
+}
+
+.slot {
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #2e3440;
+
+    position: static;
+    width: 8em;
+    min-height: 100%;
+
+    ul {
+        list-style-type: none;
+        margin: 0.3em 0.8em;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 0.1em;
+    }
+    
+    a {
+        color: #eceff4;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #c8cdd6;
+    }
+}

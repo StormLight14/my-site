@@ -5,5 +5,7 @@
 
 <div class="container">
     <Navbar/>
-    <slot class="slot"/>
+    <div>
+        <slot/>
+    </div>
 </div>

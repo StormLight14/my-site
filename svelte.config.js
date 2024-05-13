@@ -1,4 +1,9 @@
 import adapter from '@sveltejs/adapter-static';
+import { mdsvex } from 'mdsvex';
+
+const mdsvexOptions = {
+	extensions: ['.md']
+}
 
 /** @type {import('@sveltejs/kit').Config} */
 export default {
@@ -12,5 +17,8 @@ export default {
 			precompress: false,
 			strict: true
 		})
-	}
+	},
+	extensions: ['.svelte', '.md'],
+	preprocess: mdsvex(mdsvexOptions)
+
 };

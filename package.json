@@ -26,7 +26,11 @@
   },
   "type": "module",
   "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.0.20",
+    "@fontsource/manrope": "^5.0.20",
     "@sveltejs/adapter-static": "^3.0.1",
+    "lucide-svelte": "^0.378.0",
+    "open-props": "^1.7.4",
     "rollup-plugin-svelte": "^7.2.0"
   }
 }

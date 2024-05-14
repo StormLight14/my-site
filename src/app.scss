@@ -1,0 +1,147 @@
+@import '@fontsource/manrope';
+@import '@fontsource/jetbrains-mono';
+
+html {
+    --font-sans: 'Manrope', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    --brand-dark: var(--orange-3);
+	--text-1-dark: var(--gray-3);
+	--text-2-dark: var(--gray-5);
+	--surface-1-dark: var(--gray-12);
+	--surface-2-dark: var(--gray-11);
+	--surface-3-dark: var(--gray-10);
+	--surface-4-dark: var(--gray-9);
+	--background-dark: var(--gradient-8);
+	--border-dark: var(--gray-9);
+
+	/* light */
+	--brand-light: var(--orange-10);
+	--text-1-light: var(--gray-8);
+	--text-2-light: var(--gray-7);
+	--surface-1-light: var(--gray-0);
+	--surface-2-light: var(--gray-1);
+	--surface-3-light: var(--gray-2);
+	--surface-4-light: var(--gray-3);
+	--background-light: none;
+	--border-light: var(--gray-4);
+}
+
+:root {
+	color-scheme: dark;
+
+	--brand: var(--brand-dark);
+	--text-1: var(--text-1-dark);
+	--text-2: var(--text-2-dark);
+	--surface-1: var(--surface-1-dark);
+	--surface-2: var(--surface-2-dark);
+	--surface-3: var(--surface-3-dark);
+	--surface-4: var(--surface-4-dark);
+	--background: var(--background-dark);
+	--border: var(--border-dark);
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		color-scheme: light;
+
+		--brand: var(--brand-light);
+		--text-1: var(--text-1-light);
+		--text-2: var(--text-2-light);
+		--surface-1: var(--surface-1-light);
+		--surface-2: var(--surface-2-light);
+		--surface-3: var(--surface-3-light);
+		--surface-4: var(--surface-4-light);
+		--background: var(--background-light);
+		--border: var(--border-light);
+	}
+}
+
+[color-scheme='dark'] {
+	color-scheme: dark;
+
+	--brand: var(--brand-dark);
+	--text-1: var(--text-1-dark);
+	--text-2: var(--text-2-dark);
+	--surface-1: var(--surface-1-dark);
+	--surface-2: var(--surface-2-dark);
+	--surface-3: var(--surface-3-dark);
+	--surface-4: var(--surface-4-dark);
+	--background: var(--background-dark);
+	--border: var(--border-dark);
+}
+
+[color-scheme='light'] {
+	color-scheme: light;
+
+	--brand: var(--brand-light);
+	--text-1: var(--text-1-light);
+	--text-2: var(--text-2-light);
+	--surface-1: var(--surface-1-light);
+	--surface-2: var(--surface-2-light);
+	--surface-3: var(--surface-3-light);
+	--surface-4: var(--surface-4-light);
+	--background: var(--background-light);
+	--border: var(--border-light);
+}
+
+html {
+    height: 100%
+}
+body {
+    font-size: 1.5rem;
+    background-color: #3b4252;
+    color: #eceff4;
+    margin: 0;
+    height: 100%;
+}
+
+img {
+    border-radius: var(--radius-3);
+}
+
+h1 {
+    margin-top: 0.1em;
+    margin-bottom: 0.2em;
+}
+
+p {
+    margin: 0.1em 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.navbar {
+    background-color: #2e3440;
+
+    position: static;
+    width: 8em;
+    min-height: 100%;
+
+    ul {
+        margin: 0.3em 0.8em;
+    }
+
+    li {
+        margin-bottom: 0.1em;
+    }
+    
+    a {
+        color: #eceff4;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #c8cdd6;
+    }
+}

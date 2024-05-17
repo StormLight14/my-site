@@ -5,7 +5,7 @@
 <h1>silly blog</h1>
 <p>i might write something</p>
 
-<section>
+<section class="blog">
     <ul class="posts">
         {#each data.posts as post}
             <li class="post">

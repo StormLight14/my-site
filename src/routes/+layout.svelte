@@ -14,10 +14,8 @@
 
 <div class="container">
     <Navbar/>
-    <div>
-        <main>
-            <slot/>
-        </main>
+    <div class="content">
+        <slot/>
         <Footer/>
     </div>
 </div>

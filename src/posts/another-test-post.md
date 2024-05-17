@@ -9,8 +9,8 @@ categories:
 published: true
 ---
 
-## Test Post, V2
+## SvelteKit
 
-Hi, this is an even cooler post!
+SvelteKit is pretty cool fr
 
 ![TestImage](favicon.png)

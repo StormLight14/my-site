@@ -2,11 +2,14 @@
     import Navbar from '$lib/components/navbar.svelte';
     import Footer from '$lib/components/footer.svelte';
     import Toggle from '$lib/components/toggle.svelte';
+    import Transition from '$lib/components/transition.svelte';
 
     import '../app.scss';
     import 'open-props/style';
     import 'open-props/normalize';
     import 'open-props/buttons';
+
+    export let data
 </script>
 
 <svelte:head>
@@ -16,7 +19,9 @@
 <div class="container">
     <Navbar/>
     <div>
-        <slot/>
+        <Transition url={data.url}>
+            <slot/>
+        </Transition>
         <Footer/>
     </div>
     <Toggle />

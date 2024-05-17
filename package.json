@@ -18,6 +18,7 @@
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-svelte": "^2.35.1",
+    "lucide-svelte": "^0.378.0",
     "mdsvex": "^0.11.0",
     "prettier": "^3.1.1",
     "prettier-plugin-svelte": "^3.1.2",
@@ -30,7 +31,6 @@
   "dependencies": {
     "@fontsource/jetbrains-mono": "^5.0.20",
     "@fontsource/manrope": "^5.0.20",
-    "lucide-svelte": "^0.378.0",
     "open-props": "^1.7.4",
     "rollup-plugin-svelte": "^7.2.0"
   }

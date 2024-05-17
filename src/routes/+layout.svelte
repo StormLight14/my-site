@@ -3,6 +3,7 @@
     import Footer from '$lib/components/footer.svelte';
 
     import '../app.scss';
+    import '$lib/styles/prism-vsc-dark-plus.css';
     import 'open-props/style';
     import 'open-props/normalize';
     import 'open-props/buttons';

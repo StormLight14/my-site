@@ -26,6 +26,7 @@ html {
 	--surface-4-light: var(--gray-3);
 	--background-light: none;
 	--navbar-background-light: var(--gray-3);
+	--border-light: var(--gray-4);
 }
 
 :root {
@@ -40,6 +41,7 @@ html {
 	--surface-4: var(--surface-4-dark);
 	--background: var(--background-dark);
 	--navbar-background: var(--navbar-background-dark);
+	--border: var(--border-dark);
 }
 
 @media (prefers-color-scheme: light) {
@@ -55,6 +57,7 @@ html {
 		--surface-4: var(--surface-4-light);
 		--background: var(--background-light);
 		--navbar-background: var(--navbar-background-light);
+		--border: var(--border-light);
 	}
 }
 
@@ -69,6 +72,7 @@ html {
 	--surface-3: var(--surface-3-dark);
 	--surface-4: var(--surface-4-dark);
 	--background: var(--background-dark);
+	--border: var(--border-dark);
 }
 
 [color-scheme='light'] {
@@ -82,6 +86,7 @@ html {
 	--surface-3: var(--surface-3-light);
 	--surface-4: var(--surface-4-light);
 	--background: var(--background-light);
+	--border: var(--border-light);
 }
 
 html {

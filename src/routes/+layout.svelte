@@ -22,7 +22,6 @@
         <Transition url={data.url}>
             <slot/>
         </Transition>
-        <Footer/>
     </div>
     <Toggle />
 </div>

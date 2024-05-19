@@ -29,9 +29,6 @@
 		flex-direction: row;
 		gap: var(--size-1);
 	}
-	.lucide-rss {
-		display: inline;
-	}
     .posts {
 		display: grid;
 		gap: 2rem;

@@ -29,6 +29,7 @@
 		flex-direction: row;
 		gap: var(--size-1);
 	}
+	
     .posts {
 		display: grid;
 		gap: 2rem;

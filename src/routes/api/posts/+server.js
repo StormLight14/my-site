@@ -7,7 +7,7 @@ async function getPosts() {
     
     for (const path in paths) {
         const file = paths[path]
-        const slug = path.split('/').at(-1)?.replace('.md', '')
+        const slug = 'blog/' + path.split('/').at(-1)?.replace('.md', '')
         const metadata = file.metadata
         const post = { ...metadata, slug }
         if (post.published === true) {

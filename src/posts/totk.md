@@ -6,7 +6,7 @@ categories:
  - gaming
  - zelda
  - totk
-published: true
+published: false
 ---
 
 ## Background
